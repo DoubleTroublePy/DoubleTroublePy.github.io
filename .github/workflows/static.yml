@@ -14,14 +14,6 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-
-  clear:
-    runs-on: ubuntu-latest
-    steps:
-      - name: remove old site
-        run: |
-          rm -rf _site/
-
   build:
     runs-on: ubuntu-latest
     steps:
