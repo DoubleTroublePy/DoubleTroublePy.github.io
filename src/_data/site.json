@@ -1,25 +1,15 @@
 {
-    "url": "https://maia.crimew.gay",
-    "title": "maia :3",
-    "description": "meow",
+    "url": "https://doubletroublepy.github.io",
+    "title": "DoubleTroublePy",
+    "description": "",
     "tags": [
-      "nyancrimew",
-      "maia arson crimew",
-      "switzerland",
-      "hacktivism",
+      "dtpy",
+      "doubletroublepy",
+      "italy",
+      "engineering",
       "developer"
     ],
-    "twitter": "@awawawhoami",
-    "name": "maia arson crimew",
-    "pronouns": "it/she",
-    "language": "en",
-    "webring": {
-        "version": "0.2.0",
-        "siteId": "maia"
-    },
-    "sleepyWebring": {
-        "version": "0.1",
-        "siteId": "nyancrimew"
-    }
-  }
-  
+    "name": "DoubleTroublePy",
+    "pronouns": "",
+    "language": "en"
+} 
