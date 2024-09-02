@@ -13,15 +13,48 @@
       "link": "https://cyber.dabamos.de/88x31"
     },
     {
+        "badge": "aerorust.png",
+        "title": "rust in space",
+        "alt": "space crab",
+        "link": "https://aerorust.org/" 
+    },
+    {
+        "badge": "rust.png",
+        "title": "rust is a good tool",
+        "alt": "rust gear",
+        "link": "https://www.rust-lang.org/"
+    },
+    {
+        "badge": "haskell.png",
+        "title": "haskell is a haskell",
+        "alt": "haskell",
+        "link": "https://www.haskell.org/"
+    },
+    {
+        "badge": "righttorepair.png",
+        "title": "we have the right to repair",
+        "alt": "right to repair"
+    },
+    {
+        "badge": "spaceexploration.png",
+        "title": "explore the space",
+        "alt": "space exploration"
+    },
+    {
+        "badge": "adastraperaspera.png",
+        "title": "Through adversity to the stars",
+        "alt": "ad astra per aspera"
+    },
+    {
+        "badge": "dysonswarm.png",
+        "title": "we want a dyson swarm now",
+        "alt": "dyson swarm"
+    }, 
+    {
       "badge": "noclick.gif",
       "title": "don't do it",
       "alt": "don't click here",
       "link": "javascript:alert('what did i tell you??')"
-    }, 
-    {
-      "badge": "sleepy.png",
-      "title": "sleepy.zone is the best internet radio out there",
-      "alt": "sleepy zone"
     },
     {
       "badge": "queer.png",
