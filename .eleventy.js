@@ -77,10 +77,10 @@ module.exports = function (eleventyConfig) {
     const minutes = date.getUTCMinutes();
 
     if (hours != 0 && minutes != 0) {
-      return `${month} ${day}, ${year} - ${hours}:${minutes} UTC`;
+      return `${day} ${month}, ${year} - ${hours}:${minutes} UTC`;
     }
 
-    return `${month} ${day}, ${year}`;
+    return `${day} ${month}, ${year}`;
   });
 
   eleventyConfig.addFilter('urlescape', async str => {
@@ -119,20 +119,14 @@ module.exports = function (eleventyConfig) {
     return collection.getFilteredByGlob('src/posts/*.md').reverse()
   });
 
-  eleventyConfig.addCollection('decks', collection => {
-    return collection.getFilteredByGlob('src/decks/*.md')             
-    // append the raw content
-    .map(item => {
-      const content = item.template.frontMatter.content;
-      item.data.rawMarkdown = content || "";
-      return item;
-    });
+  eleventyConfig.addCollection('stories', collection => {
+    return collection.getFilteredByGlob('src/stories/*.md').reverse()
   });
 
   eleventyConfig.addTemplateFormats("scss");
   eleventyConfig.addExtension("scss", {
     outputFileExtension: "css",
-    
+
     compile: function (inputContent, inputPath) {
       let parsed = path.parse(inputPath);
 

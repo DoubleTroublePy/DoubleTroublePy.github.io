@@ -48,14 +48,7 @@ subhead: blog
         {% endif %}
         {{ content | safe }}
         {% footnotes %}
-        <a class="banner-link" href="https://ko-fi.com/nyancrimew">
-            <div class="kofi-banner">
-                if you enjoyed this or any of my other work feel free to support me on my <span class="like-a">ko-fi</span>. this is my main source of income so anything goes a long way,
-                and monthly contributions help tremendously with budgeting. &lt;3 
-            </div>
-        </a>
-    </article>
-    {% for rel in "" | related %}
+        {% for rel in "" | related %}
         {% if loop.first %}
         <div class="related">
         <h3>related posts</h3>

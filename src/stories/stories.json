@@ -1,0 +1,4 @@
+{
+    "layout": "layouts/post",
+    "permalink": "stories/{{ page.fileSlug }}/index.html"
+}
