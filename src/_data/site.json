@@ -1,15 +1,20 @@
 {
-    "url": "https://doubletroublepy.github.io",
-    "title": "DoubleTroublePy",
-    "description": "",
-    "tags": [
-      "dtpy",
-      "doubletroublepy",
-      "italy",
-      "engineering",
-      "developer"
-    ],
-    "name": "DoubleTroublePy",
-    "pronouns": "",
-    "language": "en"
+  "url": "https://doubletroublepy.github.io",
+  "analytics": {
+    "enabled": true,
+    "host": "cloud.umami.is",
+    "website_id": "95cf176b-1633-4298-92db-108ea4e1ddf0"
+  },
+  "title": "DoubleTroublePy",
+  "description": "",
+  "tags": [
+    "dtpy",
+    "doubletroublepy",
+    "italy",
+    "engineering",
+    "developer"
+  ],
+  "name": "DoubleTroublePy",
+  "pronouns": "",
+  "language": "en"
 } 
